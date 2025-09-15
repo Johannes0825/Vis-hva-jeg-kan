@@ -1,0 +1,142 @@
+@import url("https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap");
+
+* {
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+body {
+  color: rgb(68, 68, 68);
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid darkgray;
+  padding: 10px 20px;
+}
+
+ul {
+  display: flex;
+  justify-content: space-around;
+}
+
+ul li {
+  padding: 0 10px;
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(67, 5, 124);
+  font-weight: normal;
+}
+
+.logo {
+  width: 40px;
+  height: 30px;
+}
+
+button {
+  color: white;
+  background-color: blueviolet;
+  border-radius: 50px;
+  padding: 5px 20px;
+  cursor: pointer;
+  border: none;
+  transition: all 0.2s ease-in-out;
+}
+
+button:hover {
+  color: rgb(39, 39, 39);
+  background-color: white;
+  border: 1.5px solid grey;
+}
+
+h1 {
+  font-size: 40px;
+  font-family: orbitron, sans-serif;
+}
+
+.hero {
+  background-image: url(./img/hero.png);
+  background-size: cover;
+  background-position: center;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  text-shadow: 2px 2px 78px black;
+}
+
+.hero p {
+  font-size: 20px;
+}
+
+.article-container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+#article-section {
+  text-align: center;
+}
+
+section h2 {
+  margin: 25px;
+}
+
+article {
+  margin: 10px;
+  width: 302px;
+  border: 1.5px solid rgb(199, 199, 199);
+  border-radius: 15px;
+  background-color: rgb(241, 241, 241);
+}
+
+h3 {
+  padding: 15px 0;
+}
+article p {
+  padding: 10px;
+}
+
+.article-img {
+  width: 300px;
+  height: 200px;
+  object-fit: cover;
+  object-position: center;
+}
+
+#min-reise {
+  padding: 30px;
+  margin-top: 30px;
+  background-color: rgb(237, 237, 237);
+  display: flex;
+  width: 100svw;
+  justify-content: center;
+}
+
+#min-reise-img {
+  width: 400px;
+}
+
+.min-reise-div {
+  display: flex;
+  justify-content: center;
+  align-items: left;
+  flex-direction: column;
+  margin-right: 30px;
+  width: 300px;
+}
+
+footer {
+  background-color: blueviolet;
+  color: white;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
